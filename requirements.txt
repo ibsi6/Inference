@@ -1,0 +1,6 @@
+numpy>=1.26
+pandas>=2.0
+lightgbm>=4.0
+
+# Only needed if you retrain via train_full.py:
+polars>=1.0
