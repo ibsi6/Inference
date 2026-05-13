@@ -2,6 +2,18 @@ __pycache__/
 *.pyc
 *.pyo
 .venv/
+venv/
 .env
 .DS_Store
 .ipynb_checkpoints/
+.idea/
+.vscode/
+
+# data — never commit
+*.ndjson
+*.parquet
+*.arrow
+data/Data/
+data/tables/
+data/out/
+data/combined.ndjson
